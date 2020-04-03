@@ -1,0 +1,45 @@
+Intro
+Will often make comparisons with Canada because (1. Country you know, 2. Similar small open economies, but the differences are interesting)
+Question (1) we want to solve: why is Australian growth faster than Canadian growth (3.5% vs 3% avg between 1960 and 1970, technology?, inputs?, TOT?).
+Change in TOT have major implications for economy. 
+Main exports: (https://atlas.media.mit.edu/en/profile/country/aus/)
+Top trading partners.
+Resource based. World bank: 10% of GDP coming from natural resource rents (2nd highest in OECD after Norway). Canada is 5%. So twice as resource-intensive economy.
+(https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS)
+Question(2) : Stable growth. No recession in last 30 years. Longest run of uninterrupted GDP growth in the developed world
+Timeline graph (https://tex.stackexchange.com/questions/438566/timeline-shared-in-several-beamer-frames). Do it by decades instead.
+
+
+Graphs I will show are relative, we are more interested in growth/changes than absolute numbers
+I won't show every single measure we derived in the programs, but these are graphed in the Appendix if you have any questions about them.
+Data (Compare to Canada?)
+1. Outputs
+	GDP components
+	Prices (relative)
+	GDP (Compared to Canada)
+	TOT (combine with technology to see effect of these on GDP?)
+2. Inputs
+	Real Wages (and PL? and PK?) Do I really need real wages? Confusing more than anything.
+	Employment (average hours worked)
+	Taxes
+	KYR compared to Canada (even though I start higher at 3% you still have faster growth in investment?)
+	RR vs Canada (also ex-post asset inflation?)
+	Labour shares at producer prices
+	Index theory productivity
+Finish with short conclusion
+
+PROD
+SL and SK?
+
+
+PMOD
+
+
+NONPAR
+
+
+CMOD
+
+
+CON
+

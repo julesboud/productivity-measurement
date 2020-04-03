@@ -1,4 +1,4 @@
-# Completed project to measure productivity growth with multiple approaches. Models estimated with Australian data.
+# productivity_measurement
 
 Covers 3 methods of measuring productivity:
 1. Index theory.
@@ -7,4 +7,4 @@ Covers 3 methods of measuring productivity:
 
 Also estimates 2 nonlinear consumer models.
 
-Paper and slides are in PDF.
+Paper and slides are in PDF. Files are generously commented.

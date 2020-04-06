@@ -1,0 +1,688 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>OECD.Stat</Author>
+  <LastAuthor>developer2</LastAuthor>
+  <Created>2019-05-27T21:41:18Z</Created>
+  <Company>OECD</Company>
+  <Version>11.9999</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <DownloadComponents/>
+  <LocationOfComponents HRef="file:///F:\software\Office11%20-%20Disc%201%20-%20Professional\"/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>9996</WindowHeight>
+  <WindowWidth>9996</WindowWidth>
+  <WindowTopX>120</WindowTopX>
+  <WindowTopY>132</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="m42481632">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#FFFFFF"
+    ss:Bold="1"/>
+   <Interior ss:Color="#0066CC" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="m42481642">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#FFFFFF"/>
+   <Interior ss:Color="#0066CC" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="m42481652">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#FFFFFF"
+    ss:Bold="1"/>
+   <Interior ss:Color="#00CCFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="m42496516">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#FFFFFF"
+    ss:Bold="1"/>
+   <Interior ss:Color="#0066CC" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="m42496526">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#FFFFFF"/>
+   <Interior ss:Color="#0066CC" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="m42496536">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#FFFFFF"
+    ss:Bold="1"/>
+   <Interior ss:Color="#0066CC" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="m42496546">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#FFFFFF"/>
+   <Interior ss:Color="#0066CC" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s21">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Size="8"/>
+  </Style>
+  <Style ss:ID="s22">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="9" ss:Color="#000080"
+    ss:Bold="1" ss:Underline="Single"/>
+  </Style>
+  <Style ss:ID="s49">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#FFFFFF"/>
+   <Interior ss:Color="#00CCFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s50">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Bold="1"/>
+   <Interior ss:Color="#CCCCFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s51">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Courier New" x:Family="Modern" ss:Size="9" ss:Color="#FF0000"
+    ss:Bold="1"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Gray50" ss:PatternColor="#C0C0C0"/>
+  </Style>
+  <Style ss:ID="s52">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8"/>
+   <Interior ss:Color="#CCCCFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s53">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Size="8"/>
+   <NumberFormat ss:Format="#,##0.0_ ;\-#,##0.0\ "/>
+  </Style>
+  <Style ss:ID="s54">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Size="8"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="#,##0.0_ ;\-#,##0.0\ "/>
+  </Style>
+  <Style ss:ID="s55">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Underline="Single"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="OECD.Stat export">
+  <Table ss:ExpandedColumnCount="61" ss:ExpandedRowCount="12" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="13.2">
+   <Column ss:AutoFitWidth="0" ss:Width="144" ss:Span="1"/>
+   <Column ss:Index="3" ss:AutoFitWidth="0" ss:Width="13.2"/>
+   <Row ss:Hidden="1">
+    <Cell ss:StyleID="s21" ss:Formula="=DotStatQuery(RC[1])"><Data ss:Type="Error">#NAME?</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;WebTableParameter xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns=&quot;http://stats.oecd.org/OECDStatWS/2004/03/01/&quot;&gt;&lt;DataTable Code=&quot;ALFS_EMP&quot; HasMetadata=&quot;true&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Employment by activities and status (ALFS)&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Emploi par activité et statut (ALFS)&lt;/Name&gt;&lt;Dimension Code=&quot;LOCATION&quot; HasMetadata=&quot;false&quot; CommonCode=&quot;LOCATION&quot; Display=&quot;labels&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Country&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Pays&lt;/Name&gt;&lt;Member Code=&quot;CAN&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Canada&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Canada&lt;/Name&gt;&lt;/Member&gt;&lt;/Dimension&gt;&lt;Dimension Code=&quot;SUBJECT&quot; HasMetadata=&quot;false&quot; Display=&quot;labels&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Subject&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Sujet&lt;/Name&gt;&lt;Member Code=&quot;YS99TTL1_ST&quot; HasMetadata=&quot;true&quot; HasOnlyUnitMetadata=&quot;true&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Civil Employment all status, all activities &lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Emploi civil, tous status, toutes activités&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;YS99TTL2_ST&quot; HasMetadata=&quot;true&quot; HasOnlyUnitMetadata=&quot;true&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Employees in all activities &lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Salariés, toutes activités&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;YS99TTL3_ST&quot; HasMetadata=&quot;true&quot; HasOnlyUnitMetadata=&quot;true&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Employers and persons working on own account all activities &lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Employeurs et personnes travaillant à leur compte, toutes activités&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;YS99TTL4_ST&quot; HasMetadata=&quot;true&quot; HasOnlyUnitMetadata=&quot;true&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Unpaid family workers all activities &lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Travailleurs familiaux non remunérés, toutes activités&lt;/Name&gt;&lt;/Member&gt;&lt;/Dimension&gt;&lt;Dimension Code=&quot;SEX&quot; HasMetadata=&quot;false&quot; Display=&quot;labels&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Sex&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Sexe&lt;/Name&gt;&lt;Member Code=&quot;TT&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;All persons&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Ensemble des personnes&lt;/Name&gt;&lt;/Member&gt;&lt;/Dimension&gt;&lt;Dimension Code=&quot;FREQUENCY&quot; HasMetadata=&quot;false&quot; CommonCode=&quot;FREQUENCY&quot; Display=&quot;labels&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Frequency&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;FrÃ©quence&lt;/Name&gt;&lt;Member Code=&quot;A&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Annual&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Annuelle&lt;/Name&gt;&lt;/Member&gt;&lt;/Dimension&gt;&lt;Dimension Code=&quot;TIME&quot; HasMetadata=&quot;false&quot; CommonCode=&quot;TIME&quot; Display=&quot;labels&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Time&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Temps&lt;/Name&gt;&lt;Member Code=&quot;1960&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;1960&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;1960&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;1961&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;1961&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;1961&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;1962&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;1962&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;1962&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;1963&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;1963&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;1963&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;1964&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;1964&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;1964&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;1965&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;1965&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;1965&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;1966&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;1966&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;1966&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;1967&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;1967&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;1967&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;1968&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;1968&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;1968&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;1969&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;1969&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;1969&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;1970&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;1970&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;1970&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;1971&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;1971&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;1971&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;1972&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;1972&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;1972&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;1973&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;1973&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;1973&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;1974&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;1974&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;1974&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;1975&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;1975&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;1975&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;1976&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;1976&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;1976&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;1977&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;1977&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;1977&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;1978&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;1978&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;1978&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;1979&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;1979&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;1979&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;1980&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;1980&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;1980&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;1981&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;1981&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;1981&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;1982&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;1982&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;1982&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;1983&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;1983&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;1983&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;1984&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;1984&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;1984&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;1985&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;1985&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;1985&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;1986&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;1986&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;1986&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;1987&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;1987&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;1987&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;1988&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;1988&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;1988&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;1989&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;1989&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;1989&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;1990&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;1990&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;1990&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;1991&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;1991&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;1991&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;1992&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;1992&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;1992&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;1993&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;1993&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;1993&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;1994&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;1994&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;1994&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;1995&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;1995&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;1995&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;1996&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;1996&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;1996&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;1997&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;1997&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;1997&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;1998&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;1998&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;1998&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;1999&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;1999&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;1999&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;2000&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;2000&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;2000&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;2001&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;2001&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;2001&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;2002&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;2002&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;2002&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;2003&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;2003&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;2003&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;2004&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;2004&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;2004&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;2005&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;2005&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;2005&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;2006&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;2006&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;2006&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;2007&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;2007&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;2007&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;2008&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;2008&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;2008&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;2009&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;2009&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;2009&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;2010&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;2010&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;2010&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;2011&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;2011&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;2011&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;2012&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;2012&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;2012&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;2013&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;2013&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;2013&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;2014&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;2014&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;2014&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;2015&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;2015&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;2015&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;2016&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;2016&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;2016&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;2017&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;2017&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;2017&lt;/Name&gt;&lt;/Member&gt;&lt;/Dimension&gt;&lt;WBOSInformations&gt;&lt;TimeDimension WebTreeWasUsed=&quot;false&quot;&gt;&lt;StartCodes Annual=&quot;1960&quot; /&gt;&lt;/TimeDimension&gt;&lt;/WBOSInformations&gt;&lt;Tabulation Axis=&quot;horizontal&quot;&gt;&lt;Dimension Code=&quot;TIME&quot; CommonCode=&quot;TIME&quot; /&gt;&lt;/Tabulation&gt;&lt;Tabulation Axis=&quot;vertical&quot;&gt;&lt;Dimension Code=&quot;SUBJECT&quot; /&gt;&lt;/Tabulation&gt;&lt;Tabulation Axis=&quot;page&quot;&gt;&lt;Dimension Code=&quot;SEX&quot; /&gt;&lt;Dimension Code=&quot;LOCATION&quot; CommonCode=&quot;LOCATION&quot; /&gt;&lt;Dimension Code=&quot;FREQUENCY&quot; CommonCode=&quot;FREQUENCY&quot; /&gt;&lt;/Tabulation&gt;&lt;Formatting&gt;&lt;Labels LocaleIsoCode=&quot;en&quot; /&gt;&lt;Power&gt;0&lt;/Power&gt;&lt;Decimals&gt;1&lt;/Decimals&gt;&lt;SkipEmptyLines&gt;true&lt;/SkipEmptyLines&gt;&lt;SkipEmptyCols&gt;false&lt;/SkipEmptyCols&gt;&lt;SkipLineHierarchy&gt;false&lt;/SkipLineHierarchy&gt;&lt;SkipColHierarchy&gt;false&lt;/SkipColHierarchy&gt;&lt;Page&gt;1&lt;/Page&gt;&lt;/Formatting&gt;&lt;/DataTable&gt;&lt;Format&gt;&lt;ShowEmptyAxes&gt;true&lt;/ShowEmptyAxes&gt;&lt;Page&gt;1&lt;/Page&gt;&lt;EnableSort&gt;true&lt;/EnableSort&gt;&lt;IncludeFlagColumn&gt;false&lt;/IncludeFlagColumn&gt;&lt;IncludeTimeSeriesId&gt;false&lt;/IncludeTimeSeriesId&gt;&lt;DoBarChart&gt;false&lt;/DoBarChart&gt;&lt;FreezePanes&gt;false&lt;/FreezePanes&gt;&lt;MaxBarChartLen&gt;65&lt;/MaxBarChartLen&gt;&lt;/Format&gt;&lt;Query&gt;&lt;AbsoluteUri&gt;http://stats.oecd.org//View.aspx?QueryId=3491&amp;amp;QueryType=Public&amp;amp;Lang=en&lt;/AbsoluteUri&gt;&lt;/Query&gt;&lt;/WebTableParameter&gt;</Data></Cell>
+   </Row>
+   <Row ss:Height="34.8">
+    <Cell ss:StyleID="s22" ss:HRef="http://stats.oecd.org/OECDStat_Metadata/ShowMetadata.ashx?Dataset=ALFS_EMP&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">Dataset: Employment by activities and status (ALFS)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2" ss:StyleID="m42496516"><Data ss:Type="String">Sex</Data></Cell>
+    <Cell ss:MergeAcross="57" ss:StyleID="m42496526"><Data ss:Type="String">All persons</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2" ss:StyleID="m42496536"><Data ss:Type="String">Country</Data></Cell>
+    <Cell ss:MergeAcross="57" ss:StyleID="m42496546"><Data ss:Type="String">Canada</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2" ss:StyleID="m42481632"><Data ss:Type="String">Frequency</Data></Cell>
+    <Cell ss:MergeAcross="57" ss:StyleID="m42481642"><Data ss:Type="String">Annual</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2" ss:StyleID="m42481652"><Data ss:Type="String">Time</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">1960</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">1961</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">1962</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">1963</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">1964</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">1965</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">1966</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">1967</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">1968</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">1969</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">1970</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">1971</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">1972</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">1973</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">1974</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">1975</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">1976</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">1977</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">1978</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">1979</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">1980</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">1981</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">1982</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">1983</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">1984</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">1985</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">1986</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">1987</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">1988</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">1989</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">1990</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">1991</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">1992</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">1993</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">1994</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">1995</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">1996</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">1997</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">1998</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">1999</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">2000</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">2001</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">2002</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">2003</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">2004</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">2005</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">2006</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">2007</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">2008</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">2009</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">2010</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">2011</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">2012</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">2013</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">2014</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">2015</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">2016</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">2017</Data></Cell>
+   </Row>
+   <Row ss:Height="13.8">
+    <Cell ss:StyleID="s50"><Data ss:Type="String">Subject</Data></Cell>
+    <Cell ss:StyleID="s50"><Data ss:Type="String">Unit</Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="20.4">
+    <Cell ss:StyleID="s52"><Data ss:Type="String">Civil Employment all status, all activities</Data></Cell>
+    <Cell ss:StyleID="s52"><Data ss:Type="String">Persons, Thousands</Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">5965</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">6055</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">6225</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">6375</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">6609</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">6862</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">7152</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">7379</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">7537</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">7780</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">7879</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">8079</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">8329</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">8759</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">9137</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">9308</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">9747.5</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">9917.1</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">10220.3</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">10668.6</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">10984</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">11305</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">10943.7</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">11022</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">11301.7</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">11627.3</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">11986.6</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">12333</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">12709.6</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">12996.2</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">13086.4</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">12857.4</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">12730.9</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">12792.7</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">13058.7</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">13295.4</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">13420.1</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">13708.2</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">14047</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">14402</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">14760.1</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">14932.3</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">15291.3</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">15660.8</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">15915</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">16123.5</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">16396</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">16769.3</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">17010.2</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">16727.6</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">16964.3</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">17221</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">17438</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">17691.1</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">17802.2</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">17946.6</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">18079.9</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">18416.4</Data></Cell>
+   </Row>
+   <Row ss:Height="13.8">
+    <Cell ss:StyleID="s52"><Data ss:Type="String">Employees in all activities</Data></Cell>
+    <Cell ss:StyleID="s52"><Data ss:Type="String">Persons, Thousands</Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">4844</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">4911</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">5090</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">5241</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">5467</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">5760</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">6097</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">6305</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">6490</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">6721</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">6839</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">7029</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">7310</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">7757</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">8105</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">8272</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">8810.5</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">8977</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">9241.8</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">9651.7</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">9980.4</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">10282.8</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">9890.5</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">9927</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">10171.3</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">10388</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">10810.8</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">11152.7</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">11503.7</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">11776.2</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">11846.6</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">11595.2</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">11441.4</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">11428.8</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">11655.8</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">11889.2</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">11930.1</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">12145.8</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">12394.6</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">12774</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">13193.9</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">13454.9</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">13790.7</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">14121.5</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">14405.7</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">14601.7</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">14889.6</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">15208.5</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">15444.3</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">15132.6</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">15389.8</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">15665.7</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">15887.8</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">16128.9</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">16243.3</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">16398.8</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">16528.7</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">16879.6</Data></Cell>
+   </Row>
+   <Row ss:Height="20.4">
+    <Cell ss:StyleID="s52"><Data ss:Type="String">Employers and persons working on own account all activities</Data></Cell>
+    <Cell ss:StyleID="s52"><Data ss:Type="String">Persons, Thousands</Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">945</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">954</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">942</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">934</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">942</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">910</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">884</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">888</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">853</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">868</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">855</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">861</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">844</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">833</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">865</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">872</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">804</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">818.1</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">852.6</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">887.4</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">894.2</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">902.7</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">938.6</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">982.8</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">1025.8</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">1127.2</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">1077.7</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">1087.7</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">1126.9</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">1148.4</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">1172.5</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">1197.6</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">1223.5</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">1290.5</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">1346</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">1349.3</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">1434.5</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">1498.3</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">1593.3</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">1583.1</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">1524.7</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">1445</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">1468.1</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">1505.4</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">1479.8</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">1496</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">1477.8</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">1535.4</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">1540.8</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">1573.7</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">1556.5</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">1534.7</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">1530.8</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">1540.6</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">1536.7</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">1526.3</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">1527.5</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="Number">1512.5</Data></Cell>
+   </Row>
+   <Row ss:Height="13.8">
+    <Cell ss:StyleID="s52"><Data ss:Type="String">Unpaid family workers all activities</Data></Cell>
+    <Cell ss:StyleID="s52"><Data ss:Type="String">Persons, Thousands</Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">178</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">189</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">194</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">191</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">170</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">186</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">195</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">191</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">185</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">189</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">176</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">167</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">166</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">164</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">133</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">122</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">125.9</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">129.5</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">109.4</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">119.6</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">114.6</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">112.2</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">104.6</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">112.1</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">98.1</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">92.6</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">79.1</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">71.5</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">67.3</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">64.6</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">66.1</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">73.4</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">57</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">56.9</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">55.4</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">64</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">59.1</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">44.9</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">41.6</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">32.4</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">32.6</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">34</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">29.6</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">25.8</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">28.5</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">25.4</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">25.1</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">21.2</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">18</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">20.6</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">19.4</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">21.6</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">22.2</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">21.5</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">23.7</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="Number">24.3</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s55" ss:HRef="https://stats-1.oecd.org/index.aspx?DatasetCode=ALFS_EMP"><Data
+      ss:Type="String">Data extracted on 27 May 2019 19:41 UTC (GMT) from OECD.Stat</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Print>
+    <ValidPrinterInfo/>
+    <VerticalResolution>0</VerticalResolution>
+   </Print>
+   <Selected/>
+   <DoNotDisplayGridlines/>
+   <TopRowVisible>1</TopRowVisible>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

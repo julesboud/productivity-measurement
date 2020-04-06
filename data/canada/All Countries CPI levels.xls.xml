@@ -1,0 +1,2123 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>OECD.Stat</Author>
+  <LastAuthor>developer2</LastAuthor>
+  <Created>2019-05-28T00:40:56Z</Created>
+  <Company>OECD</Company>
+  <Version>11.9999</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <DownloadComponents/>
+  <LocationOfComponents HRef="file:///F:\software\Office11%20-%20Disc%201%20-%20Professional\"/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>9996</WindowHeight>
+  <WindowWidth>9996</WindowWidth>
+  <WindowTopX>120</WindowTopX>
+  <WindowTopY>132</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="m47844836">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#FFFFFF"
+    ss:Bold="1"/>
+   <Interior ss:Color="#00CCFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="m47844846">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#FFFFFF"/>
+   <Interior ss:Color="#00CCFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="m47844856">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#FFFFFF"
+    ss:Bold="1"/>
+   <Interior ss:Color="#00CCFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="m47860356">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#FFFFFF"
+    ss:Bold="1"/>
+   <Interior ss:Color="#0066CC" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="m47860366">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#FFFFFF"/>
+   <Interior ss:Color="#0066CC" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="m47860376">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#FFFFFF"
+    ss:Bold="1"/>
+   <Interior ss:Color="#0066CC" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="m47860386">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#FFFFFF"/>
+   <Interior ss:Color="#0066CC" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s21">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Size="8"/>
+  </Style>
+  <Style ss:ID="s22">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="9" ss:Color="#000080"
+    ss:Bold="1" ss:Underline="Single"/>
+  </Style>
+  <Style ss:ID="s49">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#FFFFFF"/>
+   <Interior ss:Color="#00CCFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s56">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Bold="1"/>
+   <Interior ss:Color="#CCCCFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s57">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Courier New" x:Family="Modern" ss:Size="9" ss:Color="#FF0000"
+    ss:Bold="1"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Gray50" ss:PatternColor="#C0C0C0"/>
+  </Style>
+  <Style ss:ID="s58">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8"/>
+   <Interior ss:Color="#CCCCFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s59">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Size="8"/>
+   <NumberFormat ss:Format="#,##0.0_ ;\-#,##0.0\ "/>
+  </Style>
+  <Style ss:ID="s60">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Size="8"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="#,##0.0_ ;\-#,##0.0\ "/>
+  </Style>
+  <Style ss:ID="s61">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Underline="Single"/>
+   <Interior ss:Color="#CCCCFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Underline="Single"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Bold="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="OECD.Stat export">
+  <Table ss:ExpandedColumnCount="63" ss:ExpandedRowCount="35" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="13.2">
+   <Column ss:AutoFitWidth="0" ss:Width="144" ss:Span="1"/>
+   <Column ss:Index="3" ss:AutoFitWidth="0" ss:Width="13.2"/>
+   <Row ss:Hidden="1">
+    <Cell ss:StyleID="s21" ss:Formula="=DotStatQuery(RC[1])"><Data ss:Type="Error">#NAME?</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;WebTableParameter xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns=&quot;http://stats.oecd.org/OECDStatWS/2004/03/01/&quot;&gt;&lt;DataTable Code=&quot;PRICES_CPI&quot; HasMetadata=&quot;true&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Consumer price indices (CPIs) - Complete database&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Indice des prix à la consommation (IPCs) - Base de données complète&lt;/Name&gt;&lt;Dimension Code=&quot;LOCATION&quot; HasMetadata=&quot;false&quot; CommonCode=&quot;LOCATION&quot; Display=&quot;labels&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Country&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Pays&lt;/Name&gt;&lt;Member Code=&quot;AUS&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Australia&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Australie&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;AUT&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Austria&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Autriche&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;BEL&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Belgium&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Belgique&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;CAN&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Canada&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Canada&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;DNK&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Denmark&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Danemark&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;FIN&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Finland&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Finlande&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;FRA&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;France&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;France&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;DEU&quot; HasMetadata=&quot;true&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Germany&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Allemagne&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;GRC&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Greece&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Grèce&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;ISL&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Iceland&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Islande&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;IRL&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Ireland&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Irlande&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;ITA&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Italy&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Italie&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;JPN&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Japan&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Japon&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;KOR&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Korea&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Corée&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;MEX&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Mexico&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Mexique&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;NLD&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Netherlands&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Pays-Bas&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;NZL&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;New Zealand&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Nouvelle-Zélande&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;NOR&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Norway&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Norvège&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;PRT&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Portugal&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Portugal&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;ESP&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Spain&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Espagne&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;SWE&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Sweden&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Suède&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;CHE&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Switzerland&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Suisse&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;TUR&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Turkey&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Turquie&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;GBR&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;United Kingdom&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Royaume-Uni&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;USA&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;United States&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;États-Unis&lt;/Name&gt;&lt;/Member&gt;&lt;/Dimension&gt;&lt;Dimension Code=&quot;SUBJECT&quot; HasMetadata=&quot;false&quot; Display=&quot;labels&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Subject&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Sujet&lt;/Name&gt;&lt;Member Code=&quot;CPALTT01&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;CPI: 01-12 - All items&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;IPC: 01-12 - Total&lt;/Name&gt;&lt;/Member&gt;&lt;/Dimension&gt;&lt;Dimension Code=&quot;MEASURE&quot; HasMetadata=&quot;false&quot; Display=&quot;labels&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Measure&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Mesure&lt;/Name&gt;&lt;Member Code=&quot;IXNB&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;National Index&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Indice national&lt;/Name&gt;&lt;/Member&gt;&lt;/Dimension&gt;&lt;Dimension Code=&quot;FREQUENCY&quot; HasMetadata=&quot;false&quot; CommonCode=&quot;FREQUENCY&quot; Display=&quot;labels&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Frequency&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Fréquence&lt;/Name&gt;&lt;Member Code=&quot;A&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Annual&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Annuelle&lt;/Name&gt;&lt;/Member&gt;&lt;/Dimension&gt;&lt;Dimension Code=&quot;TIME&quot; HasMetadata=&quot;false&quot; CommonCode=&quot;TIME&quot; Display=&quot;labels&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Time&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Temps&lt;/Name&gt;&lt;Member Code=&quot;1959&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;1959&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;1959&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;1960&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;1960&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;1960&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;1961&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;1961&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;1961&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;1962&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;1962&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;1962&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;1963&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;1963&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;1963&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;1964&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;1964&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;1964&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;1965&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;1965&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;1965&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;1966&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;1966&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;1966&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;1967&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;1967&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;1967&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;1968&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;1968&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;1968&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;1969&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;1969&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;1969&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;1970&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;1970&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;1970&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;1971&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;1971&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;1971&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;1972&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;1972&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;1972&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;1973&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;1973&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;1973&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;1974&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;1974&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;1974&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;1975&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;1975&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;1975&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;1976&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;1976&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;1976&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;1977&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;1977&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;1977&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;1978&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;1978&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;1978&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;1979&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;1979&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;1979&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;1980&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;1980&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;1980&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;1981&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;1981&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;1981&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;1982&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;1982&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;1982&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;1983&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;1983&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;1983&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;1984&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;1984&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;1984&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;1985&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;1985&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;1985&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;1986&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;1986&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;1986&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;1987&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;1987&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;1987&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;1988&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;1988&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;1988&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;1989&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;1989&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;1989&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;1990&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;1990&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;1990&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;1991&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;1991&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;1991&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;1992&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;1992&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;1992&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;1993&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;1993&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;1993&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;1994&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;1994&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;1994&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;1995&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;1995&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;1995&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;1996&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;1996&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;1996&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;1997&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;1997&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;1997&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;1998&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;1998&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;1998&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;1999&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;1999&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;1999&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;2000&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;2000&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;2000&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;2001&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;2001&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;2001&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;2002&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;2002&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;2002&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;2003&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;2003&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;2003&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;2004&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;2004&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;2004&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;2005&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;2005&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;2005&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;2006&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;2006&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;2006&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;2007&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;2007&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;2007&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;2008&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;2008&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;2008&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;2009&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;2009&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;2009&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;2010&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;2010&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;2010&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;2011&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;2011&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;2011&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;2012&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;2012&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;2012&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;2013&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;2013&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;2013&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;2014&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;2014&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;2014&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;2015&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;2015&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;2015&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;2016&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;2016&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;2016&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;2017&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;2017&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;2017&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;2018&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;2018&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;2018&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;2019&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;2019&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;2019&lt;/Name&gt;&lt;/Member&gt;&lt;/Dimension&gt;&lt;WBOSInformations&gt;&lt;TimeDimension WebTreeWasUsed=&quot;false&quot;&gt;&lt;StartCodes Annual=&quot;1959&quot; /&gt;&lt;/TimeDimension&gt;&lt;/WBOSInformations&gt;&lt;Tabulation Axis=&quot;horizontal&quot;&gt;&lt;Dimension Code=&quot;FREQUENCY&quot; CommonCode=&quot;FREQUENCY&quot; /&gt;&lt;Dimension Code=&quot;TIME&quot; CommonCode=&quot;TIME&quot; /&gt;&lt;/Tabulation&gt;&lt;Tabulation Axis=&quot;vertical&quot;&gt;&lt;Dimension Code=&quot;LOCATION&quot; CommonCode=&quot;LOCATION&quot; /&gt;&lt;/Tabulation&gt;&lt;Tabulation Axis=&quot;page&quot;&gt;&lt;Dimension Code=&quot;SUBJECT&quot; /&gt;&lt;Dimension Code=&quot;MEASURE&quot; /&gt;&lt;/Tabulation&gt;&lt;Formatting&gt;&lt;Labels LocaleIsoCode=&quot;en&quot; /&gt;&lt;Power&gt;0&lt;/Power&gt;&lt;Decimals&gt;1&lt;/Decimals&gt;&lt;SkipEmptyLines&gt;true&lt;/SkipEmptyLines&gt;&lt;SkipEmptyCols&gt;false&lt;/SkipEmptyCols&gt;&lt;SkipLineHierarchy&gt;false&lt;/SkipLineHierarchy&gt;&lt;SkipColHierarchy&gt;true&lt;/SkipColHierarchy&gt;&lt;Page&gt;1&lt;/Page&gt;&lt;/Formatting&gt;&lt;/DataTable&gt;&lt;Format&gt;&lt;ShowEmptyAxes&gt;true&lt;/ShowEmptyAxes&gt;&lt;Page&gt;1&lt;/Page&gt;&lt;EnableSort&gt;true&lt;/EnableSort&gt;&lt;IncludeFlagColumn&gt;false&lt;/IncludeFlagColumn&gt;&lt;IncludeTimeSeriesId&gt;false&lt;/IncludeTimeSeriesId&gt;&lt;DoBarChart&gt;false&lt;/DoBarChart&gt;&lt;FreezePanes&gt;false&lt;/FreezePanes&gt;&lt;MaxBarChartLen&gt;65&lt;/MaxBarChartLen&gt;&lt;/Format&gt;&lt;Query&gt;&lt;AbsoluteUri&gt;http://stats.oecd.org//View.aspx?QueryId=68144&amp;amp;QueryType=Public&amp;amp;Lang=en&lt;/AbsoluteUri&gt;&lt;/Query&gt;&lt;/WebTableParameter&gt;</Data></Cell>
+   </Row>
+   <Row ss:Height="34.8">
+    <Cell ss:StyleID="s22" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=PRICES_CPI&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">Dataset: Consumer price indices (CPIs) - Complete database</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2" ss:StyleID="m47860356"><Data ss:Type="String">Subject</Data></Cell>
+    <Cell ss:MergeAcross="59" ss:StyleID="m47860366"><Data ss:Type="String">CPI: 01-12 - All items</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2" ss:StyleID="m47860376"><Data ss:Type="String">Measure</Data></Cell>
+    <Cell ss:MergeAcross="59" ss:StyleID="m47860386"><Data ss:Type="String">National Index</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2" ss:StyleID="m47844836"><Data ss:Type="String">Frequency</Data></Cell>
+    <Cell ss:MergeAcross="59" ss:StyleID="m47844846"><Data ss:Type="String">Annual</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2" ss:StyleID="m47844856"><Data ss:Type="String">Time</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">1959</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">1960</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">1961</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">1962</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">1963</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">1964</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">1965</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">1966</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">1967</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">1968</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">1969</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">1970</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">1971</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">1972</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">1973</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">1974</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">1975</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">1976</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">1977</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">1978</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">1979</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">1980</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">1981</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">1982</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">1983</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">1984</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">1985</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">1986</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">1987</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">1988</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">1989</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">1990</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">1991</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">1992</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">1993</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">1994</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">1995</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">1996</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">1997</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">1998</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">1999</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">2000</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">2001</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">2002</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">2003</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">2004</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">2005</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">2006</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">2007</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">2008</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">2009</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">2010</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">2011</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">2012</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">2013</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">2014</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">2015</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">2016</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">2017</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">2018</Data></Cell>
+   </Row>
+   <Row ss:Height="13.8">
+    <Cell ss:StyleID="s56"><Data ss:Type="String">Country</Data></Cell>
+    <Cell ss:StyleID="s56"><Data ss:Type="String">Unit</Data></Cell>
+    <Cell ss:StyleID="s57"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s57"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s57"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s57"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s57"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s57"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s57"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s57"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s57"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s57"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s57"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s57"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s57"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s57"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s57"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s57"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s57"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s57"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s57"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s57"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s57"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s57"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s57"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s57"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s57"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s57"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s57"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s57"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s57"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s57"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s57"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s57"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s57"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s57"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s57"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s57"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s57"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s57"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s57"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s57"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s57"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s57"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s57"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s57"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s57"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s57"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s57"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s57"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s57"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s57"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s57"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s57"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s57"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s57"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s57"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s57"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s57"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s57"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s57"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s57"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s57"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="13.8">
+    <Cell ss:StyleID="s58"><Data ss:Type="String">Australia</Data></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="String">Index, 2011-12=100</Data></Cell>
+    <Cell ss:StyleID="s57" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=PRICES_CPI&amp;Coords=[%5bSUBJECT%5d.%5bCPALTT01%5d%2c%5bMEASURE%5d.%5bIXNB%5d%2c%5bLOCATION%5d.%5bAUS%5d]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">i</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">7.375</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">7.65</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">7.8250000000000002</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">7.8</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">7.85</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">8.0749999999999993</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">8.35</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">8.625</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">8.9250000000000007</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">9.15</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">9.45</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">9.7750000000000004</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">10.375</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">11</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">12</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">13.85</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">15.95</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">18.074999999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">20.3</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">21.925000000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">23.925000000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">26.35</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">28.85</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">32.125</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">35.35</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">36.75</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">39.225000000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">42.774999999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">46.424999999999997</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">49.774999999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">53.524999999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">57.45</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">59.274999999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">59.875</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">60.924999999999997</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">62.125</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">65</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">66.7</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">66.85</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">67.424999999999997</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">68.424999999999997</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">71.474999999999994</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">74.625</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">76.85</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">78.95</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">80.8</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">82.974999999999994</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">85.924999999999997</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">87.924999999999997</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">91.75</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">93.375</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">96.1</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">99.275000000000006</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">101.02500000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">103.5</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">106.075</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">107.675</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">109.05</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">111.175</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">113.3</Data></Cell>
+   </Row>
+   <Row ss:Height="13.8">
+    <Cell ss:StyleID="s58"><Data ss:Type="String">Austria</Data></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="String">Index, 2015=100</Data></Cell>
+    <Cell ss:StyleID="s57" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=PRICES_CPI&amp;Coords=[%5bSUBJECT%5d.%5bCPALTT01%5d%2c%5bMEASURE%5d.%5bIXNB%5d%2c%5bLOCATION%5d.%5bAUT%5d]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">i</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">15.79696</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">16.104330000000001</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">16.674779999999998</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">17.405439999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">17.876909999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">18.568490000000001</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">19.484089999999998</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">19.884450000000001</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">20.674790000000002</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">21.246420000000001</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">21.9009</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">22.85859</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">23.933910000000001</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">25.45495</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">27.371980000000001</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">29.978280000000002</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">32.51003</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">34.889330000000001</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">36.806359999999998</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">38.121940000000002</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">39.53528</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">42.037199999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">44.896999999999998</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">47.337620000000001</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">48.918300000000002</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">51.688630000000003</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">53.337249999999997</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">54.24689</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">55.007399999999997</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">56.061190000000003</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">57.501040000000003</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">59.376649999999998</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">61.3583</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">63.825420000000001</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">66.143420000000006</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">68.096909999999994</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">69.624570000000006</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">70.920270000000002</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">71.846469999999997</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">72.509230000000002</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">72.921800000000005</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">74.631720000000001</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">76.609459999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">77.996369999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">79.053650000000005</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">80.683109999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">82.538120000000006</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">83.727950000000007</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">85.543639999999996</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">88.29468</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">88.741720000000001</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">90.351079999999996</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">93.320549999999997</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">95.640190000000004</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">97.553150000000002</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">99.119659999999996</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">100.00830000000001</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">100.9</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">103</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">105.0583</Data></Cell>
+   </Row>
+   <Row ss:Height="13.8">
+    <Cell ss:StyleID="s58"><Data ss:Type="String">Belgium</Data></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="String">Index, 2013=100</Data></Cell>
+    <Cell ss:StyleID="s57" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=PRICES_CPI&amp;Coords=[%5bSUBJECT%5d.%5bCPALTT01%5d%2c%5bMEASURE%5d.%5bIXNB%5d%2c%5bLOCATION%5d.%5bBEL%5d]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">i</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">14.443429999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">14.48668</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">14.63049</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">14.835990000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">15.154669999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">15.786429999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">16.428170000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">17.113949999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">17.581209999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">18.056159999999998</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">18.733979999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">19.466190000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">20.311730000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">21.418399999999998</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">22.908110000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">25.812380000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">29.108160000000002</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">31.747859999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">34.000689999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">35.520719999999997</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">37.108170000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">39.575380000000003</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">42.593989999999998</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">46.310969999999998</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">49.85913</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">53.021090000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">55.602539999999998</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">56.322249999999997</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">57.197150000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">57.861170000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">59.658949999999997</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">61.716169999999998</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">63.700539999999997</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">65.247159999999994</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">67.044340000000005</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">68.638350000000003</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">69.645939999999996</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">71.092500000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">72.25</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">72.935839999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">73.753330000000005</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">75.63</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">77.497500000000002</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">78.772499999999994</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">80.024169999999998</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">81.702500000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">83.974999999999994</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">85.479159999999993</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">87.037499999999994</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">90.944999999999993</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">90.89667</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">92.886669999999995</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">96.167500000000004</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">98.898330000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">99.999170000000007</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">100.33920000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">100.9025</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">102.8942</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">105.0817</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">107.2392</Data></Cell>
+   </Row>
+   <Row ss:Height="13.8">
+    <Cell ss:StyleID="s58"><Data ss:Type="String">Canada</Data></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="String">Index, 2002=100</Data></Cell>
+    <Cell ss:StyleID="s57" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=PRICES_CPI&amp;Coords=[%5bSUBJECT%5d.%5bCPALTT01%5d%2c%5bMEASURE%5d.%5bIXNB%5d%2c%5bLOCATION%5d.%5bCAN%5d]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">i</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">15.33333</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">15.54167</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">15.7</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">15.866669999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">16.125</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">16.433330000000002</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">16.816669999999998</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">17.45833</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">18.08333</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">18.816669999999998</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">19.675000000000001</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">20.33333</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">20.883330000000001</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">21.925000000000001</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">23.566669999999998</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">26.158329999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">28.95</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">31.133330000000001</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">33.616660000000003</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">36.633339999999997</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">39.983330000000002</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">44.033329999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">49.524999999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">54.858330000000002</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">58.075000000000003</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">60.575000000000003</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">62.975000000000001</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">65.616669999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">68.474999999999994</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">71.233329999999995</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">74.783330000000007</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">78.358329999999995</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">82.766670000000005</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">84</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">85.566670000000002</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">85.708340000000007</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">87.55</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">88.924999999999997</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">90.366669999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">91.266670000000005</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">92.85</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">95.375</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">97.783330000000007</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">99.991669999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">102.75</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">104.6583</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">106.97499999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">109.11669999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">111.45</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">114.0917</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">114.4333</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">116.4667</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">119.8583</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">121.675</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">122.8167</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">125.1583</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">126.5667</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">128.375</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">130.42500000000001</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">133.38329999999999</Data></Cell>
+   </Row>
+   <Row ss:Height="13.8">
+    <Cell ss:StyleID="s58"><Data ss:Type="String">Denmark</Data></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="String">Index, 2015=100</Data></Cell>
+    <Cell ss:StyleID="s57" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=PRICES_CPI&amp;Coords=[%5bSUBJECT%5d.%5bCPALTT01%5d%2c%5bMEASURE%5d.%5bIXNB%5d%2c%5bLOCATION%5d.%5bDNK%5d]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">i</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">..</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">..</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">..</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">..</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">..</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">..</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">..</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">..</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">11.425420000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">12.34004</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">12.77046</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">13.60243</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">14.400880000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">15.34591</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">16.773599999999998</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">19.335799999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">21.19313</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">23.102689999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">25.62602</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">28.243369999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">30.95786</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">34.767330000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">38.858530000000002</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">42.791339999999998</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">45.747459999999997</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">48.625329999999998</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">50.900390000000002</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">52.772599999999997</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">54.89405</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">57.383569999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">60.122329999999998</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">61.710529999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">63.188589999999998</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">64.513050000000007</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">65.324529999999996</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">66.625799999999998</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">68.014020000000002</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">69.460210000000004</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">70.975939999999994</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">72.285910000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">74.091459999999998</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">76.242549999999994</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">78.025000000000006</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">79.916659999999993</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">81.575000000000003</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">82.516670000000005</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">84.016670000000005</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">85.633330000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">87.083340000000007</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">90.058329999999998</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">91.233329999999995</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">93.341669999999993</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">95.916659999999993</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">98.216669999999993</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">98.991669999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">99.55</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">100.25</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">101.4</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">102.22499999999999</Data></Cell>
+   </Row>
+   <Row ss:Height="13.8">
+    <Cell ss:StyleID="s58"><Data ss:Type="String">Finland</Data></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="String">Index, 2015=100</Data></Cell>
+    <Cell ss:StyleID="s57" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=PRICES_CPI&amp;Coords=[%5bSUBJECT%5d.%5bCPALTT01%5d%2c%5bMEASURE%5d.%5bIXNB%5d%2c%5bLOCATION%5d.%5bFIN%5d]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">i</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">7.2318959999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">7.4790919999999996</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">7.6055640000000002</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">7.9389900000000004</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">8.3356510000000004</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">9.1922119999999996</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">9.6463610000000006</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">10.02003</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">10.55888</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">11.52942</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">11.783709999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">12.106640000000001</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">12.890639999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">13.749470000000001</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">15.228160000000001</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">17.807259999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">20.97898</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">23.987929999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">26.81691</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">28.908460000000002</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">31.067039999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">34.669139999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">38.588749999999997</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">42.287460000000003</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">45.82535</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">49.064129999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">51.613320000000002</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">53.127429999999997</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">55.312579999999997</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">58.12574</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">61.957920000000001</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">65.768060000000006</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">68.602800000000002</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">70.605540000000005</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">72.152259999999998</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">72.93768</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">73.514790000000005</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">73.977350000000001</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">74.859570000000005</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">75.907200000000003</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">76.789429999999996</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">79.125429999999994</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">81.165629999999993</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">82.440929999999994</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">83.164299999999997</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">83.319919999999996</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">83.839730000000003</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">85.153210000000001</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">87.291129999999995</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">90.840339999999998</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">90.840339999999998</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">91.916020000000003</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">95.056610000000006</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">97.726110000000006</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">99.170789999999997</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">100.2034</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">99.995000000000005</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">100.35169999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">101.1083</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">102.2042</Data></Cell>
+   </Row>
+   <Row ss:Height="13.8">
+    <Cell ss:StyleID="s58"><Data ss:Type="String">France</Data></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="String">Index, 2015=100</Data></Cell>
+    <Cell ss:StyleID="s57" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=PRICES_CPI&amp;Coords=[%5bSUBJECT%5d.%5bCPALTT01%5d%2c%5bMEASURE%5d.%5bIXNB%5d%2c%5bLOCATION%5d.%5bFRA%5d]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">i</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">9.4893260000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">9.8821779999999997</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">10.119400000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">10.65889</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">11.191739999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">11.551130000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">11.86337</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">12.17206</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">12.51187</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">13.080310000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">13.87114</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">14.60627</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">15.394640000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">16.328019999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">17.53312</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">19.926279999999998</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">22.254840000000002</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">24.396979999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">26.713370000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">29.18451</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">32.291699999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">36.671289999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">41.553849999999997</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">46.531370000000003</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">50.933030000000002</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">54.841529999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">58.039389999999997</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">59.512740000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">61.470050000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">63.130249999999997</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">65.338729999999998</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">67.425830000000005</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">69.592500000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">71.237499999999997</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">72.736660000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">73.940830000000005</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">75.269170000000003</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">76.761669999999995</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">77.685839999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">78.191670000000002</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">78.611660000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">79.929169999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">81.235830000000007</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">82.798330000000007</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">84.535839999999993</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">86.34666</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">87.854159999999993</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">89.325839999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">90.655000000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">93.204999999999998</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">93.286670000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">94.715000000000003</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">96.715000000000003</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">98.605000000000004</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">99.456670000000003</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">99.961669999999998</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">99.999170000000007</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">100.1825</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">101.2167</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">103.09</Data></Cell>
+   </Row>
+   <Row ss:Height="13.8">
+    <Cell ss:StyleID="s61" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=PRICES_CPI&amp;Coords=[LOCATION].[DEU]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">Germany</Data></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="String">Index, 2015=100</Data></Cell>
+    <Cell ss:StyleID="s57" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=PRICES_CPI&amp;Coords=[%5bSUBJECT%5d.%5bCPALTT01%5d%2c%5bMEASURE%5d.%5bIXNB%5d%2c%5bLOCATION%5d.%5bDEU%5d]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">i</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">22.639209999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">22.987079999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">23.514330000000001</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">24.18291</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">24.900410000000001</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">25.482019999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">26.308219999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">27.23771</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">27.72691</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">28.13458</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">28.672699999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">29.66198</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">31.216560000000001</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">32.928759999999997</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">35.244320000000002</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">37.70664</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">39.935229999999997</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">41.631129999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">43.18571</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">44.3598</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">46.15354</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">48.66478</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">51.752189999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">54.464550000000003</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">56.258290000000002</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">57.611750000000001</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">58.802140000000001</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">58.726039999999998</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">58.872810000000001</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">59.622920000000001</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">61.280769999999997</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">62.933190000000003</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">65.480109999999996</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">68.791430000000005</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">71.869550000000004</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">73.805049999999994</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">75.064279999999997</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">76.152500000000003</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">77.629379999999998</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">78.33672</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">78.795330000000007</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">79.930199999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">81.515900000000002</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">82.674090000000007</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">83.529120000000006</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">84.920490000000001</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">86.234139999999996</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">87.59442</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">89.607640000000004</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">91.962869999999995</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">92.250470000000007</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">93.268749999999997</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">95.204229999999995</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">97.116399999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">98.577730000000003</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">99.471630000000005</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">99.983329999999995</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">100.47499999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">101.99169999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">103.75830000000001</Data></Cell>
+   </Row>
+   <Row ss:Height="13.8">
+    <Cell ss:StyleID="s58"><Data ss:Type="String">Greece</Data></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="String">Index, 2009=100</Data></Cell>
+    <Cell ss:StyleID="s57" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=PRICES_CPI&amp;Coords=[%5bSUBJECT%5d.%5bCPALTT01%5d%2c%5bMEASURE%5d.%5bIXNB%5d%2c%5bLOCATION%5d.%5bGRC%5d]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">i</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">1.1570990000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">1.174199</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">1.1988989999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">1.1931989999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">1.2311989999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">1.238799</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">1.278699</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">1.3413980000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">1.366099</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">1.367998</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">1.4040980000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">1.4439979999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">1.491498</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">1.556098</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">1.795498</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">2.2723979999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">2.5820970000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">2.9183970000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">3.2793960000000002</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">3.6916959999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">4.3965949999999996</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">5.4814939999999996</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">6.8247920000000004</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">8.2573910000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">9.9236889999999995</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">11.75529</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">14.025779999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">17.253879999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">20.082979999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">22.799969999999998</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">25.913440000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">31.208459999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">37.280329999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">43.199350000000003</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">49.424930000000003</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">54.799430000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">59.695500000000003</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">64.587270000000004</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">68.16283</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">71.411619999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">73.294489999999996</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">75.604129999999998</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">78.154979999999995</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">80.991519999999994</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">83.851039999999998</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">86.281750000000002</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">89.340509999999995</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">92.195779999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">94.864850000000004</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">98.804400000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">104.71299999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">108.1998</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">109.8244</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">108.8117</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">107.3849</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">105.52070000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">104.6494</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">105.8228</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">106.4849</Data></Cell>
+   </Row>
+   <Row ss:Height="13.8">
+    <Cell ss:StyleID="s58"><Data ss:Type="String">Iceland</Data></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="String">Index, 2008M1=100</Data></Cell>
+    <Cell ss:StyleID="s57" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=PRICES_CPI&amp;Coords=[%5bSUBJECT%5d.%5bCPALTT01%5d%2c%5bMEASURE%5d.%5bIXNB%5d%2c%5bLOCATION%5d.%5bISL%5d]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">i</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">5.2485259999999999E-2</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">5.3528880000000001E-2</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">5.6050959999999997E-2</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">6.2225700000000002E-2</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">7.0270250000000006E-2</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">8.3793790000000007E-2</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">8.9925039999999998E-2</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">9.9535029999999997E-2</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">0.1028398</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="String">..</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="String">..</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="String">..</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="String">..</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="String">..</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="String">..</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="String">..</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="String">..</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">0.65265519999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">0.85051900000000002</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">1.222621</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">1.766008</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">2.7996249999999998</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">4.2496419999999997</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">6.3847990000000001</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">11.74484</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">15.368410000000001</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">20.28547</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">24.774319999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">29.307469999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">36.846960000000003</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">44.495730000000002</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">51.39734</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">54.89687</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">57.064039999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">59.371049999999997</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">60.292879999999997</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">61.288449999999997</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">62.673830000000002</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">63.811630000000001</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">64.870410000000007</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">66.966920000000002</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">70.406660000000002</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">74.916269999999997</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">78.80968</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">80.429739999999995</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">82.96987</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">86.277919999999995</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">92.047389999999993</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">96.697220000000002</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">108.97239999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">122.05240000000001</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">128.63929999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">133.78620000000001</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">140.7242</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">146.17339999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">149.16210000000001</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">151.59800000000001</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">154.1705</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">156.88460000000001</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">161.09360000000001</Data></Cell>
+   </Row>
+   <Row ss:Height="13.8">
+    <Cell ss:StyleID="s58"><Data ss:Type="String">Ireland</Data></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="String">Index, 2016M12=100</Data></Cell>
+    <Cell ss:StyleID="s57" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=PRICES_CPI&amp;Coords=[%5bSUBJECT%5d.%5bCPALTT01%5d%2c%5bMEASURE%5d.%5bIXNB%5d%2c%5bLOCATION%5d.%5bIRL%5d]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">i</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">..</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">..</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">..</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">..</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">..</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">..</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">..</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">..</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">..</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">..</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">..</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">..</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">..</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">..</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">..</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">..</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">..</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">17.01191</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">19.303789999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">20.79233</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">23.556760000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">27.833369999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">33.504010000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">39.24897</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">43.349559999999997</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">47.099780000000003</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">49.64105</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">51.54083</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">53.16921</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">54.30415</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">56.52467</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">58.39978</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">60.274889999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">62.125329999999998</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">63.038209999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">64.493889999999993</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">66.12227</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">67.281880000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">68.308329999999998</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">69.958340000000007</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">71.1</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">75.075000000000003</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">78.733329999999995</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">82.366669999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">85.241669999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">87.116669999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">89.233329999999995</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">92.741669999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">97.283330000000007</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">101.2333</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">96.7</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">95.808329999999998</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">98.258330000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">99.924999999999997</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">100.4333</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">100.61669999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">100.325</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">100.33329999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">100.675</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">101.16670000000001</Data></Cell>
+   </Row>
+   <Row ss:Height="13.8">
+    <Cell ss:StyleID="s58"><Data ss:Type="String">Italy</Data></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="String">Index, 2015=100</Data></Cell>
+    <Cell ss:StyleID="s57" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=PRICES_CPI&amp;Coords=[%5bSUBJECT%5d.%5bCPALTT01%5d%2c%5bMEASURE%5d.%5bIXNB%5d%2c%5bLOCATION%5d.%5bITA%5d]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">i</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">3.7687309999999998</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">3.8573019999999998</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">3.9364029999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">4.1210659999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">4.4282789999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">4.6900940000000002</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">4.9020510000000002</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">5.0170830000000004</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">5.2043869999999997</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">5.2708640000000004</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">5.4109230000000004</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">5.6797560000000002</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">5.9519099999999998</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">6.2941159999999998</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">6.9737939999999998</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">8.3099559999999997</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">9.7185349999999993</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">11.33319</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">13.274570000000001</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">14.88</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">17.08203</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">20.680209999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">24.3963</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">28.416910000000001</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">32.57902</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">36.095759999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">39.418729999999996</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">41.714300000000001</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">43.694600000000001</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">45.904780000000002</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">48.77834</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">51.927759999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">55.173250000000003</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">58.081209999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">60.768470000000001</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">63.230710000000002</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">66.541110000000003</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">69.207400000000007</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">70.621380000000002</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">72.002080000000007</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">73.199809999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">75.057389999999998</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">77.147869999999998</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">79.049800000000005</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">81.162459999999996</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">82.953500000000005</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">84.600369999999998</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">86.369230000000002</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">87.949560000000005</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">90.893969999999996</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">91.598179999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">92.995530000000002</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">95.581400000000002</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">98.488370000000003</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">99.689930000000004</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">99.930229999999995</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">99.968990000000005</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">99.875</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">101.1</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">102.25</Data></Cell>
+   </Row>
+   <Row ss:Height="13.8">
+    <Cell ss:StyleID="s58"><Data ss:Type="String">Japan</Data></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="String">Index, 2015=100</Data></Cell>
+    <Cell ss:StyleID="s57" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=PRICES_CPI&amp;Coords=[%5bSUBJECT%5d.%5bCPALTT01%5d%2c%5bMEASURE%5d.%5bIXNB%5d%2c%5bLOCATION%5d.%5bJPN%5d]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">i</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">17.679780000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">18.31175</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">19.294809999999998</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">20.613689999999998</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">21.996230000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">22.832170000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">24.351880000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">25.579419999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">26.6</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">28.020289999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">29.491299999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">31.533329999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">33.55</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">35.174999999999997</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">39.258339999999997</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">48.375</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">54.05</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">59.116660000000003</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">63.941670000000002</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">66.633330000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">69.1</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">74.474999999999994</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">78.133330000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">80.275000000000006</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">81.8</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">83.65</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">85.35</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">85.858329999999995</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">85.966669999999993</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">86.55</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">88.516670000000005</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">91.241669999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">94.208340000000007</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">95.866669999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">97.058329999999998</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">97.733329999999995</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">97.608329999999995</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">97.741669999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">99.45</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">100.1083</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">99.766670000000005</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">99.091669999999993</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">98.358329999999995</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">97.45</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">97.2</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">97.191670000000002</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">96.916659999999993</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">97.158330000000007</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">97.216669999999993</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">98.558329999999998</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">97.224999999999994</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">96.525000000000006</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">96.266670000000005</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">96.216669999999993</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">96.55</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">99.216669999999993</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">99.883330000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">100.35</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">101.33329999999999</Data></Cell>
+   </Row>
+   <Row ss:Height="13.8">
+    <Cell ss:StyleID="s58"><Data ss:Type="String">Korea</Data></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="String">Index, 2015=100</Data></Cell>
+    <Cell ss:StyleID="s57" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=PRICES_CPI&amp;Coords=[%5bSUBJECT%5d.%5bCPALTT01%5d%2c%5bMEASURE%5d.%5bIXNB%5d%2c%5bLOCATION%5d.%5bKOR%5d]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">i</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">1.2455609999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">1.344778</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">1.4549909999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">1.5512870000000001</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">1.8722730000000001</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">2.4238979999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">2.7522920000000002</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">3.0622379999999998</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">3.3954849999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">3.7612399999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">4.2272420000000004</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">4.9015009999999997</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">5.5637780000000001</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">6.2141270000000004</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">6.4142859999999997</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">7.9732260000000004</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">9.9864069999999998</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">11.517049999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">12.67989</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">14.513439999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">17.172809999999998</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">22.100999999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">26.819929999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">28.7485</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">29.73188</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">30.407969999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">31.155740000000002</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">32.012509999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">32.988779999999998</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">35.346200000000003</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">37.360979999999998</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">40.564169999999997</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">44.350169999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">47.105499999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">49.367080000000001</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">52.460329999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">54.810920000000003</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">57.510249999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">60.06317</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">64.575919999999996</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">65.100909999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">66.571659999999994</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">69.278750000000002</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">71.192580000000007</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">73.694919999999996</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">76.340999999999994</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">78.4435</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">80.202079999999995</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">82.235079999999996</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">86.078580000000002</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">88.451499999999996</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">91.051249999999996</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">94.716840000000005</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">96.788499999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">98.048079999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">99.297920000000005</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">99.999170000000007</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">100.9708</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">102.9342</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">104.4542</Data></Cell>
+   </Row>
+   <Row ss:Height="13.8">
+    <Cell ss:StyleID="s58"><Data ss:Type="String">Mexico</Data></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="String">Index, 2018M07=100</Data></Cell>
+    <Cell ss:StyleID="s57" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=PRICES_CPI&amp;Coords=[%5bSUBJECT%5d.%5bCPALTT01%5d%2c%5bMEASURE%5d.%5bIXNB%5d%2c%5bLOCATION%5d.%5bMEX%5d]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">i</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">..</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">..</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">..</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">..</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">..</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">..</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">..</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">..</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">..</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">..</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">1.1793970000000001E-2</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">1.238407E-2</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">1.3061359999999999E-2</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">1.370707E-2</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">1.5363150000000001E-2</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">1.901713E-2</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">2.1859139999999999E-2</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">2.531829E-2</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">3.2676829999999997E-2</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">3.8381329999999998E-2</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">4.536337E-2</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">5.7317359999999998E-2</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">7.3328260000000006E-2</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">0.11652849999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">0.2352417</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">0.38920470000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">0.61396430000000002</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">1.1434059999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">2.650728</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">5.6768590000000003</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">6.8126790000000002</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">8.6283709999999996</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">10.583769999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">12.22508</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">13.417210000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">14.35183</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">19.374860000000002</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">26.035620000000002</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">31.405629999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">36.408050000000003</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">42.446539999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">46.475380000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">49.434809999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">51.921750000000003</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">54.282580000000003</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">56.827570000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">59.093879999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">61.238669999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">63.667920000000002</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">66.930890000000005</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">70.476460000000003</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">73.40598</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">75.907200000000003</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">79.028120000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">82.036240000000006</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">85.33296</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">87.654570000000007</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">90.127920000000003</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">95.572959999999995</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">100.25539999999999</Data></Cell>
+   </Row>
+   <Row ss:Height="13.8">
+    <Cell ss:StyleID="s58"><Data ss:Type="String">Netherlands</Data></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="String">Index, 2015=100</Data></Cell>
+    <Cell ss:StyleID="s57" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=PRICES_CPI&amp;Coords=[%5bSUBJECT%5d.%5bCPALTT01%5d%2c%5bMEASURE%5d.%5bIXNB%5d%2c%5bLOCATION%5d.%5bNLD%5d]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">i</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="String">..</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="String">..</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">15.603009999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">15.982329999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">16.50075</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">17.46171</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">18.144120000000001</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">19.189609999999998</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">19.85267</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">20.591349999999998</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">22.119599999999998</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">22.931149999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">24.645869999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">26.568940000000001</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">28.70035</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">31.453119999999998</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">34.666840000000001</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">37.728149999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">40.142479999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">41.793149999999997</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">43.548160000000003</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">46.384650000000001</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">49.510480000000001</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">52.437100000000001</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">53.874310000000001</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">55.65305</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">56.910020000000003</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">56.957450000000001</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">56.563760000000002</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">56.981169999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">57.597799999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">59.011299999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">60.874989999999997</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">62.813000000000002</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">64.436199999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">66.241389999999996</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">67.515370000000004</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">68.942499999999995</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">70.39667</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">71.775829999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">73.324169999999995</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">75.055000000000007</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">78.174160000000001</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">80.744159999999994</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">82.433329999999998</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">83.474999999999994</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">84.884159999999994</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">85.81917</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">87.204170000000005</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">89.372500000000002</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">90.435839999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">91.589160000000007</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">93.733329999999995</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">96.034999999999997</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">98.442499999999995</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">99.40334</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">100.3167</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">101.7025</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">103.435</Data></Cell>
+   </Row>
+   <Row ss:Height="13.8">
+    <Cell ss:StyleID="s58"><Data ss:Type="String">New Zealand</Data></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="String">Index, 2017Q2=100</Data></Cell>
+    <Cell ss:StyleID="s57" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=PRICES_CPI&amp;Coords=[%5bSUBJECT%5d.%5bCPALTT01%5d%2c%5bMEASURE%5d.%5bIXNB%5d%2c%5bLOCATION%5d.%5bNZL%5d]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">i</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">4.49254</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">4.5238950000000004</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">4.6052210000000002</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">4.7286799999999998</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">4.8217639999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">4.9893159999999996</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">5.1588269999999996</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">5.3009779999999997</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">5.6220540000000003</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">5.8644730000000003</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">6.1533119999999997</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">6.554335</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">7.2351710000000002</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">7.7367720000000002</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">8.368608</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">9.2983089999999997</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">10.66376</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">12.466670000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">14.259819999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">15.96481</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">18.15193</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">21.265090000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">24.533560000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">28.499089999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">30.591229999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">32.479100000000003</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">37.486609999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">42.439869999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">49.121720000000003</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">52.253360000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">55.240160000000003</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">58.608939999999997</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">60.134180000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">60.744280000000003</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">61.526789999999998</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">62.600670000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">64.95129</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">66.435879999999997</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">67.224580000000003</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">68.075130000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">67.997339999999994</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">69.775630000000007</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">71.607820000000004</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">73.524820000000005</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">74.814130000000006</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">76.527569999999997</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">78.85172</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">81.505399999999995</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">83.442089999999993</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">86.745509999999996</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">88.580749999999995</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">90.619900000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">94.269980000000004</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">95.269170000000003</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">96.349919999999997</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">97.532619999999994</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">97.818110000000004</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">98.450239999999994</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">100.2723</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">101.875</Data></Cell>
+   </Row>
+   <Row ss:Height="13.8">
+    <Cell ss:StyleID="s58"><Data ss:Type="String">Norway</Data></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="String">Index, 2015=100</Data></Cell>
+    <Cell ss:StyleID="s57" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=PRICES_CPI&amp;Coords=[%5bSUBJECT%5d.%5bCPALTT01%5d%2c%5bMEASURE%5d.%5bIXNB%5d%2c%5bLOCATION%5d.%5bNOR%5d]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">i</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">8.2840179999999997</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">8.3138810000000003</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">8.4930590000000006</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">8.9410059999999998</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">9.1619919999999997</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">9.6995280000000008</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">10.10567</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">10.43416</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">10.91197</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">11.28824</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">11.62271</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">12.85904</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">13.659369999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">14.650829999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">15.73784</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">17.219049999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">19.231819999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">20.993739999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">22.904979999999998</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">24.77441</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">25.891670000000001</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">28.70833</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">32.625</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">36.325000000000003</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">39.4</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">41.85</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">44.241660000000003</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">47.416670000000003</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">51.55</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">54.991660000000003</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">57.491660000000003</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">59.866660000000003</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">61.924999999999997</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">63.366660000000003</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">64.816670000000002</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">65.708340000000007</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">67.325000000000003</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">68.174999999999997</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">69.924999999999997</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">71.5</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">73.191670000000002</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">75.45</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">77.716669999999993</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">78.716669999999993</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">80.674999999999997</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">81.041659999999993</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">82.283330000000007</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">84.2</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">84.8</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">87.983329999999995</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">89.916659999999993</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">92.091669999999993</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">93.275000000000006</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">93.924999999999997</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">95.916659999999993</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">97.875</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">103.55</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">105.49169999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">108.4083</Data></Cell>
+   </Row>
+   <Row ss:Height="13.8">
+    <Cell ss:StyleID="s58"><Data ss:Type="String">Portugal</Data></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="String">Index, 2012=100</Data></Cell>
+    <Cell ss:StyleID="s57" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=PRICES_CPI&amp;Coords=[%5bSUBJECT%5d.%5bCPALTT01%5d%2c%5bMEASURE%5d.%5bIXNB%5d%2c%5bLOCATION%5d.%5bPRT%5d]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">i</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">1.077504</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">1.110331</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">1.1275299999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">1.157546</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">1.180947</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">1.2216290000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">1.263469</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">1.3271390000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">1.4004829999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">1.4856510000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">1.6161319999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">1.719244</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">1.9246399999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">2.1298710000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">2.4062139999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">3.0097589999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">3.469401</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">4.2028980000000002</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">5.5065</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">6.665</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">8.1245829999999994</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">9.4137500000000003</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">11.20617</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">13.635579999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">16.9085</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">21.707920000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">25.932580000000002</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">29.130420000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">31.937080000000002</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">35.163249999999998</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">39.624169999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">45.025170000000003</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">50.360419999999998</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">55.174500000000002</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">58.91742</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">62.110999999999997</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">64.733829999999998</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">66.720500000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">68.279660000000007</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">70.036330000000007</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">71.675250000000005</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">73.720169999999996</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">76.941670000000002</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">79.711830000000006</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">82.277749999999997</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">84.223920000000007</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">86.141829999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">88.818830000000005</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">90.998410000000007</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">93.353920000000002</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">92.573909999999998</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">93.872330000000005</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">97.301500000000004</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">100.2744</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">99.995500000000007</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">100.4834</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">101.0938</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">102.4773</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">103.4957</Data></Cell>
+   </Row>
+   <Row ss:Height="13.8">
+    <Cell ss:StyleID="s58"><Data ss:Type="String">Spain</Data></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="String">Index, 2016=100</Data></Cell>
+    <Cell ss:StyleID="s57" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=PRICES_CPI&amp;Coords=[%5bSUBJECT%5d.%5bCPALTT01%5d%2c%5bMEASURE%5d.%5bIXNB%5d%2c%5bLOCATION%5d.%5bESP%5d]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">i</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">2.658172</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">2.689479</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">2.7112440000000002</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">2.8659599999999998</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">3.1165509999999998</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">3.334063</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">3.7746300000000002</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">4.0101810000000002</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">4.2664970000000002</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">4.477875</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">4.5746130000000003</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">4.8367909999999998</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">5.2351910000000004</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">5.6682620000000004</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">6.3153899999999998</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">7.3056669999999997</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">8.5442180000000008</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">10.050129999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">12.51623</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">14.991149999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">17.338799999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">20.037050000000001</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">22.952310000000001</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">26.26088</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">29.457899999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">32.780830000000002</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">35.670279999999998</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">38.807459999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">40.844090000000001</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">42.819830000000003</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">45.727910000000001</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">48.801650000000002</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">51.697650000000003</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">54.760489999999997</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">57.262540000000001</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">59.964419999999997</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">62.767040000000001</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">65.000820000000004</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">66.282039999999995</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">67.497870000000006</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">69.057299999999998</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">71.428399999999996</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">73.992559999999997</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">76.260999999999996</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">78.578749999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">80.966920000000002</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">83.694249999999997</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">86.636409999999998</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">89.051000000000002</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">92.680419999999998</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">92.413499999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">94.076840000000004</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">97.083659999999995</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">99.458340000000007</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">100.8593</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">100.7071</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">100.20310000000001</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">101.95610000000001</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">103.6639</Data></Cell>
+   </Row>
+   <Row ss:Height="13.8">
+    <Cell ss:StyleID="s58"><Data ss:Type="String">Sweden</Data></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="String">Index, 1980=100</Data></Cell>
+    <Cell ss:StyleID="s57" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=PRICES_CPI&amp;Coords=[%5bSUBJECT%5d.%5bCPALTT01%5d%2c%5bMEASURE%5d.%5bIXNB%5d%2c%5bLOCATION%5d.%5bSWE%5d]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">i</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">26.75245</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">27.860479999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">28.4617</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">29.818239999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">30.67455</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">31.713699999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">33.303429999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">35.436450000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">36.956429999999997</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">37.67454</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">38.688740000000003</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">41.403280000000002</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">44.46528</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">47.136479999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">50.303109999999997</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">55.289009999999998</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">60.696210000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">66.917100000000005</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">74.573620000000005</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">82.027460000000005</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">87.941460000000006</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">99.995000000000005</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">112.09829999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">121.72669999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">132.5275</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">143.1883</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">153.745</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">160.25749999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">166.97</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">176.69579999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">188.08080000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">207.57830000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">227.1833</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">232.57749999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">243.57419999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">248.83080000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">254.94</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">256.29919999999998</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">257.98669999999998</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">257.29750000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">258.48669999999998</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">260.81079999999997</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">267.08580000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">272.85079999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">278.10500000000002</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">279.14420000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">280.4092</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">284.22329999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">290.51080000000002</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">300.49579999999997</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">299.01</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">302.47250000000003</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">311.42919999999998</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">314.19580000000002</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">314.05669999999998</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">313.49250000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">313.3458</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">316.43</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">322.10829999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">328.4008</Data></Cell>
+   </Row>
+   <Row ss:Height="13.8">
+    <Cell ss:StyleID="s58"><Data ss:Type="String">Switzerland</Data></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="String">Index, 2015M12=100</Data></Cell>
+    <Cell ss:StyleID="s57" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=PRICES_CPI&amp;Coords=[%5bSUBJECT%5d.%5bCPALTT01%5d%2c%5bMEASURE%5d.%5bIXNB%5d%2c%5bLOCATION%5d.%5bCHE%5d]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">i</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">24.29064</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">24.640139999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">25.094850000000001</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">26.17794</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">27.078520000000001</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">27.912690000000001</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">28.865760000000002</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">30.24438</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">31.455729999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">32.209350000000001</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">33.011049999999997</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">34.204729999999998</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">36.45308</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">38.880859999999998</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">42.284750000000003</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">46.414879999999997</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">49.523090000000003</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">50.37265</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">51.025480000000002</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">51.550429999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">53.430799999999998</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">55.580060000000003</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">59.187370000000001</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">62.534480000000002</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">64.379140000000007</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">66.266369999999995</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">68.542879999999997</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">69.057169999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">70.051820000000006</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">71.363510000000005</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">73.615229999999997</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">77.593369999999993</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">82.140010000000004</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">85.456019999999995</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">88.269769999999994</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">89.021950000000004</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">90.624170000000007</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">91.359729999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">91.834990000000005</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">91.851479999999995</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">92.592209999999994</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">94.03528</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">94.965299999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">95.575649999999996</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">96.18571</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">96.957970000000003</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">98.094269999999995</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">99.133600000000001</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">99.859589999999997</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">102.2822</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">101.7908</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">102.4914</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">102.7285</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">102.017</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">101.7953</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">101.78189999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">100.6176</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">100.1803</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">100.715</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">101.6581</Data></Cell>
+   </Row>
+   <Row ss:Height="13.8">
+    <Cell ss:StyleID="s58"><Data ss:Type="String">Turkey</Data></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="String">Index, 2003=100</Data></Cell>
+    <Cell ss:StyleID="s57" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=PRICES_CPI&amp;Coords=[%5bSUBJECT%5d.%5bCPALTT01%5d%2c%5bMEASURE%5d.%5bIXNB%5d%2c%5bLOCATION%5d.%5bTUR%5d]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">i</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">9.1090989999999998E-5</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">9.6251050000000001E-5</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">9.9304979999999997E-5</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">1.0316619999999999E-4</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">1.097304E-4</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">1.1095900000000001E-4</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">1.160138E-4</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">1.2584249999999999E-4</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">1.434288E-4</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">1.5210089999999999E-4</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">1.595906E-4</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">1.7223649999999999E-4</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">2.049811E-4</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">2.3658190000000001E-4</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">2.695571E-4</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">3.3397629999999998E-4</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">4.0487059999999998E-4</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">4.7554349999999999E-4</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">5.9911510000000003E-4</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">9.6994979999999995E-4</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">1.5862859999999999E-3</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">3.0815320000000001E-3</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">4.240644E-3</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">5.476262E-3</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">7.1952759999999996E-3</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">1.0677239999999999E-2</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">1.5477909999999999E-2</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">2.083482E-2</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">2.893037E-2</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">4.883726E-2</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">7.9737829999999996E-2</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">0.12782279999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">0.2121585</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">0.36083090000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">0.59931800000000002</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">1.2298899999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">2.3258860000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">4.1961810000000002</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">7.7910240000000002</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">14.385450000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">23.716930000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">36.741169999999997</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">56.728439999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">82.235879999999995</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">100.0008</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">108.5992</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">117.4817</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">128.7567</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">140.0308</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">154.6558</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">164.32329999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">178.4</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">189.94579999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">206.83500000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">222.33330000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">242.02</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">260.58499999999998</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">280.8458</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">312.14420000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">363.125</Data></Cell>
+   </Row>
+   <Row ss:Height="13.8">
+    <Cell ss:StyleID="s58"><Data ss:Type="String">United Kingdom</Data></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="String">Index, 2015=100</Data></Cell>
+    <Cell ss:StyleID="s57" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=PRICES_CPI&amp;Coords=[%5bSUBJECT%5d.%5bCPALTT01%5d%2c%5bMEASURE%5d.%5bIXNB%5d%2c%5bLOCATION%5d.%5bGBR%5d]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">i</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">5.5971029999999997</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">5.6532739999999997</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">5.8481709999999998</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">6.0935889999999997</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">6.2165910000000002</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">6.4205940000000004</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">6.7270979999999998</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">6.9901020000000003</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">7.1636050000000004</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">7.5001100000000003</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">7.9086160000000003</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">8.4121229999999994</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">9.2066350000000003</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">9.8576440000000005</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">10.76416</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">12.491160000000001</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">15.51493</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">18.084129999999998</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">20.948699999999999</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">22.67972</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">25.72363</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">30.345120000000001</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">33.949100000000001</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">36.868340000000003</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">38.567709999999998</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">40.480939999999997</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">42.938699999999997</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">44.410469999999997</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">46.253030000000003</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">48.2</Data><Comment
+      ss:Author="MyOECD"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><Font
+        html:Face="Tahoma" x:CharSet="1" html:Size="9" html:Color="#000000">B: Break </Font></ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">51</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">55.1</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">59.2</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">61.9</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">63.5</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">64.9</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">66.6</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">68.5</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">70</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">71.3</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">72.6</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">73.4</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">74.6</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">75.7</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">76.7</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">77.8</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">79.4</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">81.4</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">83.3</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">86.2</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">87.9</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">90.1</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">93.6</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">96</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">98.2</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">99.6</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">101</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">103.6</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="Number">106</Data></Cell>
+   </Row>
+   <Row ss:Height="13.8">
+    <Cell ss:StyleID="s58"><Data ss:Type="String">United States</Data></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="String">Index, 1982-84=100</Data></Cell>
+    <Cell ss:StyleID="s57" ss:HRef="http://localhost/OECDStat_Metadata/ShowMetadata.ashx?Dataset=PRICES_CPI&amp;Coords=[%5bSUBJECT%5d.%5bCPALTT01%5d%2c%5bMEASURE%5d.%5bIXNB%5d%2c%5bLOCATION%5d.%5bUSA%5d]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">i</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">29.15</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">29.574999999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">29.891670000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">30.25</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">30.625</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">31.016670000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">31.508330000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">32.458329999999997</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">33.358330000000002</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">34.783329999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">36.683329999999998</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">38.825000000000003</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">40.491660000000003</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">41.816670000000002</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">44.4</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">49.308329999999998</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">53.816670000000002</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">56.908329999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">60.608330000000002</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">65.233329999999995</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">72.575000000000003</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">82.408330000000007</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">90.924999999999997</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">96.5</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">99.6</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">103.88330000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">107.5667</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">109.6083</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">113.625</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">118.25830000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">123.9667</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">130.6583</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">136.1917</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">140.3167</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">144.45830000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">148.22499999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">152.38329999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">156.85</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">160.51669999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">163.00829999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">166.57499999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">172.2</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">177.0667</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">179.875</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">183.95830000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">188.88329999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">195.29169999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">201.5917</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">207.3424</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">215.30250000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">214.53700000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">218.05549999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">224.9392</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">229.59389999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">232.9571</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">236.7362</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">237.017</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">240.00720000000001</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">245.11959999999999</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Number">251.10679999999999</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62" ss:HRef="https://stats-3.oecd.org/index.aspx?DatasetCode=PRICES_CPI"><Data
+      ss:Type="String">Data extracted on 27 May 2019 22:41 UTC (GMT) from OECD.Stat</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Legend:</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">B:</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Break</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Print>
+    <ValidPrinterInfo/>
+    <VerticalResolution>0</VerticalResolution>
+   </Print>
+   <Selected/>
+   <DoNotDisplayGridlines/>
+   <TopRowVisible>1</TopRowVisible>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
